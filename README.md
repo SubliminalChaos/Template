@@ -1,4 +1,4 @@
-# spigot-plugin-base
+# Template1
 This is a basic codebase for a Spigot plugin written in Kotlin and built using Gradle.
 
 ## Requirements
