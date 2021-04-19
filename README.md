@@ -4,6 +4,7 @@ This is a basic codebase for a Spigot plugin written in Kotlin and built using G
 ## Requirements
 - JDK 8+ (Kotlin builds to this target)
 - Gradle 6+
+- Foundation-5.8.1.jar
 
 ## Initial Usage
 Clone this repo, and then change the following files to match your new package name:
