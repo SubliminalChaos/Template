@@ -12,7 +12,6 @@ class App : JavaPlugin(), Listener {
 
     override fun onEnable() {
         instance = this
-
         //this.reloadConfig()
         //this.saveDefaultConfig()
 
@@ -23,9 +22,8 @@ class App : JavaPlugin(), Listener {
 
     }
 
-}
-
-@EventHandler
-fun onPlayerJoin(e: PlayerJoinEvent) {
-    e.joinMessage = "Welcome To My Server!"
+    @EventHandler
+    fun onPlayerJoin(e: PlayerJoinEvent) {
+        e.joinMessage = "Welcome To My Server!"
+    }
 }

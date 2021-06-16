@@ -7,11 +7,9 @@ This is a basic codebase for a Spigot plugin written in Kotlin and built using G
 - Foundation-5.8.1.jar
 
 ## Initial Usage
-Clone this repo, and then change the following files to match your new package name:
-- `src/main/java/me/waqe/#NAME#/` (create the package)
-- `src/main/java/me/waqe/#NAME#/App.kt` (change the package name in line 1)
-- `src/resources/plugin.yml` (There is a `main` field)
-                             (There is a `name` field)
+Clone this repo, and then make the following changes:
+- `settings: gradle` Use Java 11 (20210615)
+- `plugin.yml` edit the plugin name (optional)
 
 ### Additional Notes
 - The Spigot version is specified in `build.gradle.kts`
